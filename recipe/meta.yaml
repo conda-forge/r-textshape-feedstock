@@ -1,4 +1,4 @@
-{% set version = '1.6.0' %}
+{% set version = "1.7.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -11,12 +11,12 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/textshape_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/textshape/textshape_{{ version }}.tar.gz
-  sha256: 48b3eb7c929c263c8f75811e7a6bcee658480205971148db2b82e682252f88de
+  sha256: ea16c575a3e0bf577628bfbbc263435ab1a4ac5c29e8d36f2548cd39e40c2108
 
 build:
   noarch: generic
-  merge_build_host: True  # [win]
-  number: 1001
+  merge_build_host: true  # [win]
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
@@ -45,7 +45,7 @@ about:
   license: GPL-2
   summary: Tools that can be used to reshape and restructure text data.
   license_family: GPL2
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'
+  license_file: {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
 
 extra:
   recipe-maintainers:
