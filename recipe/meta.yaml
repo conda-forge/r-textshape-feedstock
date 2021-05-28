@@ -41,7 +41,7 @@ test:
 
 about:
   home: http://github.com/trinker/textshape
-  license: GPL-2
+  license: GPL-2.0-only
   summary: Tools that can be used to reshape and restructure text data.
   license_family: GPL2
   license_file:
