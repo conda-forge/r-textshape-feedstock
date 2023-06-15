@@ -1,11 +1,11 @@
-About r-textshape
-=================
+About r-textshape-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-textshape-feedstock/blob/main/LICENSE.txt)
 
 Home: http://github.com/trinker/textshape
 
 Package license: GPL-2.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-textshape-feedstock/blob/main/LICENSE.txt)
 
 Summary: Tools that can be used to reshape and restructure text data.
 
