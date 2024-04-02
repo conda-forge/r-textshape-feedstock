@@ -1,4 +1,4 @@
-{% set version = "1.7.3" %}
+{% set version = "1.7.5" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/textshape_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/textshape/textshape_{{ version }}.tar.gz
-  sha256: ba9ddfc0bc41501594fa98a09ef2808b6da7de69cfb7c3f2c542bee9bbb4314d
+  sha256: de45cf4b95a3c11a18a72cfe9e6a8e09962429d71afbc9635088c34c5e1b29bc
 
 build:
   merge_build_host: true  # [win]
-  number: 2
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
